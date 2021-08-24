@@ -7,6 +7,7 @@ Conflicts: hybris-libsensorfw-qt5-hal
 Obsoletes: hybris-libsensorfw-qt5 < %{version}-%{release}
 
 BuildRequires: pkgconfig(libgbinder)
+BuildRequires: linux-hidl-devel
 
 # additional parameters for qmake
 %define qmake_extra_parameters CONFIG+=binder
