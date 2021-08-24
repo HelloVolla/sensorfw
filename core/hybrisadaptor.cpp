@@ -36,6 +36,7 @@
 #include <errno.h>
 #include <time.h>
 #include <signal.h>
+#include <cassert>
 
 #ifdef USE_BINDER
 #define SENSOR_BINDER_SERVICE_DEVICE "/dev/hwbinder"
